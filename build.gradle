@@ -27,8 +27,8 @@ jar {
     baseName = 'demo-jenkins-gradle'
 }
 
-springBoot {
-    executable = true
+bootJar {
+    launchScript()
 }
 
 dependencies {
