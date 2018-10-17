@@ -27,10 +27,6 @@ jar {
     baseName = 'demo-jenkins-gradle'
 }
 
-bootJar {
-    launchScript()
-}
-
 dependencies {
     implementation('org.springframework.boot:spring-boot-starter-web')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
